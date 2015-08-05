@@ -1,0 +1,26 @@
+{
+  "name": "api-format",
+  "version": "0.0.1",
+  "description": "a json api formatter",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meikidd/api-format.git"
+  },
+  "keywords": [
+    "api format",
+    "json api"
+  ],
+  "devDependencies": {
+    "babel": "~5.8.12"
+  },
+  "author": "meikidd@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meikidd/api-format/issues"
+  },
+  "homepage": "https://github.com/meikidd/api-format#readme"
+}
