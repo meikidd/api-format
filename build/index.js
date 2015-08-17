@@ -19,11 +19,13 @@ var ApiFormat = (function () {
   _createClass(ApiFormat, null, [{
     key: 'success',
     value: function success() {
-      var message = arguments[0] === undefined ? '' : arguments[0];
+      var message = arguments[0] === undefined ? 'success' : arguments[0];
+      var data = arguments[1] === undefined ? {} : arguments[1];
 
       return {
         status: SUCCESS,
-        message: message
+        message: message,
+        data: data
       };
     }
   }, {

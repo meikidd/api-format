@@ -1,12 +1,12 @@
-
 const SUCCESS = 200,
       ERROR = 500;
 
 export default class ApiFormat {
-  static success(message = 'success') {
+  static success(message = 'success', data = {}) {
     return {
       status: SUCCESS,
-      message
+      message,
+      data
     }
   }  
   static isSuccess(json = {}) {
