@@ -1,6 +1,6 @@
 {
   "name": "api-format",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "a json api formatter",
   "main": "build/index.js",
   "scripts": {
